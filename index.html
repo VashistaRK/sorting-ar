@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vashista's - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Nova+Square&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Josefin+Sans:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Nova+Square&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(240, 240, 240);
+            -webkit-text-fill-color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(140, 140, 140);
+            -webkit-text-fill-color: white;
+        }
+
+        footer nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 180px;
+            background-color: rgb(156, 156, 156);
+            -webkit-text-fill-color: white;
+        }
+
+        footer nav>div.rightfo {
+            width: 15%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            -webkit-text-fill-color: rgb(231, 245, 240);
+        }
+
+        nav ul li a:hover {
+            -webkit-text-fill-color: rgb(198, 207, 204);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstsec>div {
+            width: 30%;
+        }
+
+        .leftsec {
+            font-size: 2.5rem;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        .leftsec p{
+            padding-top: 2vw;
+            font-size: large;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .rightsec img {
+            width: 80%;
+        }
+
+        .purple {
+            -webkit-text-fill-color: rgb(117, 25, 117);
+        }
+
+        #element {
+            -webkit-text-fill-color: rgb(117, 25, 117);
+        }
+
+        .secondsec {
+            background-color: rgb(233, 232, 232);
+            display: flex;
+            height: 12vw;
+        }
+
+        .half {
+            padding-top: 5vw;
+            padding-left: 6vw;
+            font-size: large;
+        }
+
+        .half h1 {
+            font-size: xx-large;
+        }
+
+        .projects {
+            background-color: rgb(233, 232, 232);
+            height: 56vw;
+        }
+
+        .divs {
+            padding-top: 2vw;
+            display: flex;
+            justify-content: space-between;
+            height: 20vw;
+        }
+
+        .divs>div {
+            width: 40%;
+        }
+
+        .pic img {
+            height: 100%;
+            border-radius: 18px;
+            position: relative;
+            animation-name: exp;
+            animation-duration: 2s;
+        }
+
+        @keyframes exp{
+            0% {left: -100%; top: 0%;}
+            25% {left: -75%; top: 0%;}
+            50% {left: -50%; top: 0%;}
+            75% {left: -25%; top: 0%;}
+            100% {left: 0%; top: 0%;}
+        }
+
+        .rigdiv {
+            padding-left: 4em;
+            padding-right: 8em;
+            font-size: large;
+        }
+
+        .rigdiv p {
+            margin-top: 15px;
+        }
+
+        .divs1 {
+            padding-top: 6vw;
+            display: flex;
+            justify-content: space-between;
+            height: 20vw;
+        }
+
+        .divs1>div {
+            width: 40%;
+        }
+
+        .rightfo {
+            padding-left: 28em;
+        }
+
+        .leftfo {
+            padding-left: 8em;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: larger;
+            -webkit-text-fill-color: rgb(231, 245, 240);
+        }
+
+        .button{
+            border-color: rgb(117, 25, 117);
+            -webkit-text-fill-color:black;
+            padding: 16px 32px;
+            display: inline-block;
+            margin: 4px 2px;
+            border-radius: 12px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button:hover{
+            background-color: rgb(117, 25, 117);
+            -webkit-text-fill-color:beige;
+        }
+
+        .hr{
+            height: 10px;
+            background-color: rgb(91, 45, 134);
+        }
+
+        footer a {
+            text-decoration: none;
+            font-size: larger;
+            -webkit-text-fill-color: rgb(231, 245, 240);
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vashista's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="\About.html">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="mailto:vashista6752@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                <div>
+                    Hi , I'm <span class="purple"><b>Vashista Rama Krishna.</b></span>
+                    I'm a passionate
+                    <b><span id="element"></span></b>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellendus expedita sed ea, delectus odit deserunt saepe magni veniam quasi. Voluptas dolorum ipsam reprehenderit non iste distinctio repudiandae placeat ducimus.</p>
+                </div>
+                <a href="1.Vashista_Resume.pdf" download="1.Vashista_Resume.pdf">
+                    <button class="button">
+                        Download CV
+                    </button>
+                </a>
+            </div>
+            <div class="rightsec">
+                <img src="pic.png" alt="">
+            </div>
+        </section>
+        <section class="secondsec">
+            <div class="half">
+                what i have done so far
+                <h1><b>PROJECTS</b></h1>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="divs">
+                <div class="pic">
+                    <img src="pro.png" alt="">
+                </div>
+                <div class="rigdiv">
+                    <h1><b>Project 1</b></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusamus et maxime deleniti ex
+                        quasi odit voluptas iure corrupti dolorum aliquam placeat autem, temporibus repudiandae suscipit
+                        aperiam maiores, error rerum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                        voluptatem voluptates soluta? Temporibus nesciunt distinctio nulla sint nihil praesentium
+                        dignissimos minus perferendis fugit quam vero, quibusdam facere eaque. Soluta, quod?</p>
+                    <a href="/">
+                        <h4>read more.</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="divs1">
+                <div class="pic">
+                    <img src="pro.png" alt="">
+                </div>
+                <div class="rigdiv">
+                    <h1><b>Project 2</b></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusamus et maxime deleniti ex
+                        quasi odit voluptas iure corrupti dolorum aliquam placeat autem, temporibus repudiandae suscipit
+                        aperiam maiores, error rerum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                        voluptatem voluptates soluta? Temporibus nesciunt distinctio nulla sint nihil praesentium
+                        dignissimos minus perferendis fugit quam vero, quibusdam facere eaque. Soluta, quod?</p>
+                    <a href="/">
+                        <h4>read more.</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr class="hr">
+    </main>
+    <footer>
+        <nav>
+            <div class="leftfo">
+                <h3>Feel free to contact me.</h3>
+                <h3>I’m always available to bounce thoughts around and I'd love to collaborate.</h3>
+            </div>
+            <div class="rightfo">
+                <a href="mailto:vashista6752@gmail.com" target="_blank">MAIL</a>
+                <br>
+                <a href="/">GITHUB</a>
+                <br>
+                <a href="https://www.linkedin.com/in/rangoju-vashista-rama-krishna-128a35261/" target="_blank">LINKEDIN</a>
+                <br>
+                <a href="+919515984423">CONTACT</a>
+            </div>
+        </nav>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Data Scientist', 'Animator'],
+            typeSpeed: 45,
+        });
+    </script>
+</body>
+
+</html>
